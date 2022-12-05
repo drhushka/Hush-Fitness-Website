@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 1;
+    background-color: lightblue;
+    color: black;
+} 
+
+#hushFitnessBusinessLogo 
+{
+    width: 300px;
+    height: 200px;
+}
+
+li,a,button{
+    font-family: 'Roboto Serif', serif;
+    font-weight: 500;
+    font-size: 16 px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 30px 10%;
+}
+.nav_links{
+    margin-top: 100px;
+    text-align: right;
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: black
+}
+button{
+    padding: 9px 25px;
+    background-color: #008080;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+/* Start About Page */
+.aboutInformation p{
+    font-size: 30px;
+    margin: 0px 75px 100px 75px;
+    text-indent: 75px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+/* Start of Gallery Page */
+.TopOfPage{
+    color: black;
+    margin-top: 75px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#smallHushFitnessLogoFirstRow{
+    border-spacing: 5px;
+    height: 650px;
+    width: 650px;
+    margin: 5px 25px;
+    padding: 80p 10px 5px 10px;
+    vertical-align: top;
+}
+#smallHushFitnessLogoSecondRow{
+    border-spacing: 10px;
+    height: 500px;
+    width: 550px;
+    margin: 5px 200px;
+    font-size: 20px;
+    padding: 80px 50px 5px 50px;
+    vertical-align: top;
+}
+#smallHushFitnessLogoThirdRow{
+    border-spacing: 10px;
+    height: 500px;
+    width: 550px;
+    margin: 5px 200px;
+    font-size: 20px;
+    padding: 80px 50px 5px 50px;
+    vertical-align: top;
+}
+#smallHushFitnessLogoFourthRow{
+    border-spacing: 10px;
+    height: 500px;
+    width: 550px;
+    margin: 5px 200px;
+    font-size: 20px;
+    padding: 80px 50px 5px 50px;
+    vertical-align: top;
+}
+#smallHushFitnessLogoFifthRow{
+    border-spacing: 10px;
+    height: 500px;
+    width: 550px;
+    margin: 5px 200px;
+    padding: 80px 50px 5px 50px;
+    vertical-align: top;
+} /* End of Gallery Page */
+
+h3{
+    margin: 0px 100px 100px 100px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+h6{
+    margin: 0px 100px 100px 100px;
+    font-size: 40px;
+    padding-top: 10px;
+}
+h2{
+    font-size: 30px;
+    
+}
+ul{
+    font-size: 22px;
+}
+li{
+    font-size: 18px;
+    color: black;
+}
+
+.quotes h3{
+    margin: 0px, 20px, 20px, 20px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.quickLinks{
+    background-color: #008080;
+    padding-top: 25px;
+    margin: auto;
+    border-top-style: solid;
+}
+.quickLinks td a{
+    background-color: #008080;
+    line-height: 50px;
+    font-size: 15px;
+    padding: 10px 25px 10px 25px;
+    text-align: left;
+    width: 80%;
+    text-decoration: none;
+}
+.quickLinks table{
+    background-color:#008080;
+    padding: 5px 200px 5px 200px;
+    
+}
+
+/* Styling Only for Specific for Home Page */
+.servicesHP {   /*Styles Services in Inline Block */
+    display: inline-block;
+    border: 5px solid black;
+    border-spacing: 10px;
+    width: 600px;
+    height: 500px;
+    margin: 5px 150px;
+    font-size: 20px;
+    padding:5px 25px;
+    font-size: 25px;
+    text-indent: 10px;
+    vertical-align: top; /*lines up all boxes */
+    /* background-color: goldenrod;
+    color: purple; */
+ }
+ .servicesHP button{
+    font-size: 15px;
+    padding: 20px;
+    margin-left: 100px;
+ }
+ .servicesHP h1{
+    font-size: 40px;
+    text-indent: 0px;
+    text-decoration: underline;
+ }
+ .clientReviews h1{ /*Header for Review Section */
+    font-size: 40px;
+    text-decoration: underline;
+    color: black;
+ }
+/* End of Styling for the Home Page */
+
+/* Styling Only for Contact Page */
+ label {
+    margin-left: 600px;    
+} 
+input, select, textarea {
+    width: 20%; /* Full width */
+    padding: 10px;  /* Adds space in the answer boxes */ 
+    border: 1px solid black; /* box border */
+    border-radius: 10px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin: 10px 0px 0px 25px;
+    display: i
+  }
+input[type=submit] {
+    background-color: lightskyblue;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.lastQuestion {
+    display: inline-block;
+    text-align: center;
+}
+/* End of Styling for Contact Page */
